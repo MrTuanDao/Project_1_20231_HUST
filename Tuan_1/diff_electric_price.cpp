@@ -1,5 +1,6 @@
 //CPP 
 // tôi không muốn dùng if else
+// lặp qua từng bậc thang, tính số điện ở bậc đó, ngoại lệ ở bậc cuối thì cần thay đổi công thức
 #include <bits/stdc++.h> 
 using namespace std;
 
