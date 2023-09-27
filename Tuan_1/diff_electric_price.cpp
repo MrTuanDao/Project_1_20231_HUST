@@ -37,6 +37,6 @@ double tien_dien_5_bac(int kwh){
 int main() 
 { 
     int kwh; cin >> kwh;
-    printf("%.0f",(1.1*tien_dien_5_bac(kwh) - 1.1*tien_dien_6_bac(kwh))*1000);
+    printf("%.0f.00",(1.1*tien_dien_5_bac(kwh) - 1.1*tien_dien_6_bac(kwh))*1000); //%.0f.00 là do test case nó làm tròn 
     return 0;
 }
