@@ -10,11 +10,11 @@ bool check(string date){
     if(date[4] != '-' || date[7] != '-') return false;
     //check MM
     int month = (date[5] - '0')*10 + (date[6] - '0');
-    if(month > 12 ) return false;
+    if(month > 12 || month <= 00) return false;
     //check DD
     int day = (date[8] - '0')*10 + (date[9] - '0');
-    if(day > 30 ) return false;
-  
+    if(day > 30 || day <= 00) return false;
+    
     cout<< date.substr(0, 4) << ' ' << month << ' ' <<day;
     return true;
 }
